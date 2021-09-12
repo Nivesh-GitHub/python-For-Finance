@@ -1,6 +1,3 @@
-import bs4 as bs
-import pickle
-import requests
 
 def save_sp500_tickers():
     resp = requests.get('http://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
