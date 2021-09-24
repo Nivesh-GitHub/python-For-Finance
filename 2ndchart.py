@@ -7,4 +7,4 @@ print(df.head())
 ax1.plot(df.index,df["Adj Close"])
 ax1.plot(df.index,df["100ma"])
 ax2.plot(df.index,df["100ma"])
-plt.show
+plt.show()
